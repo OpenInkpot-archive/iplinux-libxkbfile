@@ -2,6 +2,8 @@ Source: libxkbfile
 Section: gui
 Priority: optional
 Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
+XCS-Cross-Host-Build-Depends: debhelper (>= 5.0.0), pkg-config
+XCS-Cross-Build-Depends: libx11-dev (>= 1:0.99.2), x11proto-kb-dev
 Build-Depends: debhelper (>= 5.0.0), libx11-dev (>= 1:0.99.2), x11proto-kb-dev, pkg-config
 Standards-Version: 3.7.3
 Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxkbfile
